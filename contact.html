@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Welcome</title>
+<meta charset="utf-8">
+<meta name="author" content="">
+<meta name="description" content=""/>
+
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="js/flexslider.js"></script>
+<script type="text/javascript" src="js/scrollTo.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+<!--  fixed header  -->
+<header class="header_fixed">
+	<div class="wrapper clearfix">
+		<nav class="clearfix">
+			<ul>
+				<li><h4 onclick="onAbout()">About </h4></li>
+				<li><h4 onclick="onPortfolio()">Portfolio </h4></li>
+				<li><h4 onclick="onContact()">Contact </h4></li>
+			</ul>
+			<a href="#" class="hamburger fixed_nav" id="sitcky_menu">
+				<span class="top"></span>
+				<span class="middle left"></span>
+				<span class="middle right"></span>
+				<span class="bottom"></span>
+			</a>
+		</nav>
+	</div>
+</header><!--  end fixed header  -->
+
+
+<!--  start billboard  -->
+<section class="billboard">
+
+	<!--  hero header  -->
+	<header class="hero_header">
+		<div class="wrapper clearfix">
+			<nav class="clearfix">
+				<ul>
+					<li><h4 onclick="onAbout()">About </h4></li>
+					<li><h4 onclick="onPortfolio()">Portfolio </h4></li>
+					<li><h4 onclick="onContact()">Contact </h4></li>
+				</ul>
+				<a href="#" class="hamburger hero_nav" id="sitcky_menu">
+					<span class="top"></span>
+					<span class="middle left"></span>
+					<span class="middle right"></span>
+					<span class="bottom"></span>
+				</a>
+			</nav>
+		</div>
+	</header><!--  end hero header  -->
+
+</section><!--  end billboard  -->
+
+
+<!--  start contact  -->
+<section class="contact" id="contact">
+	<br/><br/><br/>
+	<a href="resume/Resume.pdf" download>
+		<img src="img/contact_icon.png" alt="" title=""/>
+		<h2 class="title">Resume</h2>
+	</a>
+	<hr/>
+
+	<!-- <br/>
+	<h2 class="title">Make A Friend?</h2> -->
+
+</section><!--  end contact  -->
+
+
+<!--  start services  -->
+<section class="services" id="services">
+	<div class="wrapper clearfix">
+		<article>
+			<div class="service_icon">
+				<img src="img/s2.png" alt="" title=""/>
+			</div>
+			<div class="service_info">
+				<a href="https://github.com/mingzelin" target="_blank">
+					<h3 class="service_title">GitHub</h3>
+				</a>
+			</div>
+		</article>
+
+		<article>
+			<div class="service_icon">
+				<img src="img/s1.png" alt="" title=""/>
+			</div>
+			<div class="service_info">
+			  <a href="https://www.facebook.com/mingze.lin.37" target="_blank">
+					<h3 class="service_title">&nbsp&nbsp&nbsp&nbsp&nbspFacebook</h3>
+				</a>
+			</div>
+		</article>
+
+		<article>
+			<div class="service_icon">
+				<img src="img/s2.png" alt="" title=""/>
+			</div>
+			<div class="service_info">
+				<a href="img/wechat.png" target="_blank">
+					<h3 class="service_title">WeChat </h3>
+				</a>
+
+			</div>
+		</article>
+	</div>
+</section><!--  end services  -->
+
+
+<!--  start contact  -->
+<section class="contact" id="contact">
+	<h4 >m59lin@uwaterloo.ca</h4>
+	<h4 >+1 647 870 6066</h4>
+	<br/><br/><br/><br/>
+
+</section><!--  end contact  -->
+
+
+<!--  start footer  -->
+<footer>
+	<div class="wrapper clearfix">
+		<div class="copyrights">
+			<p>Copyright &copy; 2019.Mingze Lin.</p>
+		</div>
+
+		<div class="social">
+			<ul>
+				<li><a href="https://www.facebook.com/mingze.lin.37" target="_blank">facebook</a></li>
+				<li><a href="https://github.com/mingzelin" target="_blank">github</a></li>
+				<li><a href="img/wechat.png" target="_blank">wechat</a></li>
+			</ul>
+		</div>
+	</div>
+</footer><!--  end footer  -->
+
+
+
+<script>
+function onAbout() {location.replace("./index.html")}
+function onPortfolio() {location.replace("https://github.com/mingzelin")}
+function onContact() {location.replace("./contact.html")}
+</script>
+
+</body>
+</html>
